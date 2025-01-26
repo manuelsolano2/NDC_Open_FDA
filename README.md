@@ -15,7 +15,7 @@ This project is a web application that interacts with the OpenFDA API to display
 
 You can view the live version of this application here:
 
-**[NDC Open FDA - Live on Vercel](https://ndc-open-fda.vercel.app/)**
+[**NDC Open FDA - Live on Vercel**](https://ndc-open-fda.vercel.app/){:target="_blank"}
 
 No installation or setup required—simply open the link in your browser.
 
