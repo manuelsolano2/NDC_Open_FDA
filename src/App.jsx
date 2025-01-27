@@ -1,7 +1,7 @@
 import * as React from "react"
 import {Routes, Route, BrowserRouter} from "react-router-dom"
 import TableSearch from "./pages/TableSearch/index.jsx"
-import SideNav from "./AppBar.jsx"
+import SideNav from "./components/AppBar.jsx"
 import HomePage from "./pages/Home.jsx"
 
 export default function App() {
