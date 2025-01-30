@@ -3,10 +3,16 @@ import {useSignal} from "@preact/signals-react"
 import DynamicTable from "../../components/DynamicTable.jsx"
 import {resetGeneralSignals} from "../../signals.jsx"
 import NdcFilter from "./Filter.jsx"
-import {infoColumn} from "../../components/infoColumn.jsx"
 import ModalTable from "../../components/Modal/ModalTable.jsx"
-import {brandNameColumn, dosageFormColumn, finishedColumn, genericNameColumn, productNdcColumn} from "./columns/index.js"
 import {getModalContent} from "./ModalContent.jsx"
+import {
+    infoColumn,
+    brandNameColumn,
+    dosageFormColumn,
+    finishedColumn,
+    genericNameColumn,
+    productNdcColumn
+} from "./columns/index.js"
 
 export default function TableSearch() {
     useEffect(() => {
